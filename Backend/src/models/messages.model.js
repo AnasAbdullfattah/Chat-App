@@ -17,12 +17,12 @@ const message = new mongoose.Schema({
     },
     image: {
         type: String,
-        default: null
+        default: ""
     }
 }
 , {
     timestamps: true
 });
 
-export const Message = mongoose.model('User', user);
+export const Message = mongoose.model('Message', message);
 export default Message;

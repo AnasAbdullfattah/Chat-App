@@ -15,7 +15,7 @@ const user = new mongoose.Schema({
     },
     profilepic: {
         type: String,
-        default: null
+        default: ""
     },
     password: {
         type: String,
@@ -27,5 +27,5 @@ const user = new mongoose.Schema({
     timestamps: true
 });
 
-export const User = mongoose.model('User', user);
+const User = mongoose.model('User', user);
 export default User;
