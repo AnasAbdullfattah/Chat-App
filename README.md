@@ -82,4 +82,3 @@ A few things I learned or want to remember during development:
 
 ---
 
-Let me know if you'd like to add setup instructions, screenshots, or a demo section!
